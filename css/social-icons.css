@@ -1,0 +1,45 @@
+.social-wrapper{
+    display: flex;
+}
+.social-wrapper-item{
+    height: 60px;
+}
+.social-wrapper svg {
+    display: flex;
+    height: 48px;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: all ease-in-out 150ms;
+    filter: drop-shadow(0px 3px 3px rgba(255, 255, 255, 0.3));
+}
+
+.social-wrapper-item:hover svg{
+    cursor: pointer;
+    margin-top: -10px;  
+    transform: translate(0, -8);
+}
+
+#facebook, #instagram{
+    fill: white;
+}
+#facebook:hover {
+    fill: #577ccd;
+    filter: drop-shadow(0px 3px 3px rgba(24, 65, 154, 0.3));
+}
+
+#instagram:hover{
+    filter: drop-shadow(0px 3px 3px rgba(106, 12, 15, 0.3));
+}
+#instagram:hover path, #instagram:hover rect{
+    fill: #ad64d1;
+    stroke: #ad64d1;
+}
+#email path, #email rect{
+    stroke: white;
+}
+#email:hover {
+    filter: drop-shadow(0px 3px 3px rgba(131, 28, 16, 0.3));
+}
+#email:hover path, #email:hover rect{
+    stroke: #dd4b39;
+}
